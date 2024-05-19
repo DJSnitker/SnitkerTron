@@ -1,0 +1,12 @@
+.icon {
+  vertical-align: middle;
+  width: 24px;
+  height: 24px;
+  fill: currentColor;
+  margin-right: 10px;
+}
+
+.social {
+  padding: 10px;
+  margin-right: 20px;
+}

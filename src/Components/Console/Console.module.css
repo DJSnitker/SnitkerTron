@@ -1,0 +1,37 @@
+.console {
+  display: inline-block;
+  text-align: left;
+  width: 650px;
+  height: 405px;
+  border: 1px solid #2ac41c;
+  padding: 10px;
+  font-family: "PressStart2P", sans-serif;
+  font-size: small;
+}
+.contextImageBox {
+  width: 320px;
+  height: 425px;
+  border: 1px solid #2ac41c;
+}
+.blink {
+  animation-name: blink;
+  animation-duration: 2s;
+  animation-timing-function: ease-in;
+  animation-iteration-count: Infinite;
+}
+@keyframes blink {
+  0% {
+    color: rgb(0, 0, 0);
+  }
+  50% {
+    color: #2ac41c;
+  }
+  100% {
+    color: rgb(0, 0, 0);
+  }
+}
+
+@font-face {
+  font-family: "PressStart2P";
+  src: local("PressStart2P"), url(./assets/PressStart2P.ttf) format("truetype");
+}

@@ -1,0 +1,17 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.menu-bar {
+  display: flex;
+  text-align: left;
+  border: 1px solid #2ac41c;
+}
+
+@font-face {
+  font-family: "PressStart2P";
+  src: local("PressStart2P"), url(./assets/PressStart2P.ttf) format("truetype");
+}
